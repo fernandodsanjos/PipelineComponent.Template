@@ -1,0 +1,38 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>ICC.Shared.PipelineComponents</Name>
+    <Description>PipelineComponents template</Description>
+    <ProjectType>BizTalk</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>false</CreateNewFolder>
+    <DefaultName>Solution.PipelineComponents</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="skit.csproj" File="ICC.Shared.PipelineComponents.Template.csproj" ReplaceParameters="true">
+      <Folder Name="BiztalkComponents.Utils" TargetFolderName="BiztalkComponents.Utils">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ContextExtensions.cs">ContextExtensions.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ContextProperties.cs">ContextProperties.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ContextProperty.cs">ContextProperty.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="PropertyBagHelper.cs">PropertyBagHelper.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="RequiredRuntimeAttribute.cs">RequiredRuntimeAttribute.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ValidationHelper.cs">ValidationHelper.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="key.snk">key.snk</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="$componentname$.cs">Template.cs</ProjectItem>
+ 	<ProjectItem ReplaceParameters="true" TargetFileName="$componentname$.Component.cs">Template.Component.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+   <WizardExtension>  
+    <Assembly>ICC.Shared.PipelineComponents.Wizard, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=ad679348c203b092</Assembly>  
+    <FullClassName>ICC.Shared.PipelineComponents.Wizard</FullClassName>  
+</WizardExtension> 
+</VSTemplate>
