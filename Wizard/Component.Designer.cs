@@ -1,4 +1,4 @@
-﻿namespace ICC.Shared.PipelineComponents
+﻿namespace Shared.PipelineComponents
 {
     partial class ComponentName
     {

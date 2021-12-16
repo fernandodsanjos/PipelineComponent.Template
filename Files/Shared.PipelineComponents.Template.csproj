@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>$safeprojectname$</RootNamespace>
     <AssemblyName>$safeprojectname$</AssemblyName>
-     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
@@ -50,11 +50,11 @@
     </Reference>
     <Reference Include="Microsoft.BizTalk.Pipeline, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft BizTalk Server 2016\Microsoft.BizTalk.Pipeline.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft BizTalk Server 2020\Microsoft.BizTalk.Pipeline.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.BizTalk.Streaming, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft BizTalk Server 2016\Microsoft.BizTalk.Streaming.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files (x86)\Microsoft BizTalk Server 2020\Microsoft.BizTalk.Streaming.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.XLANGs.BaseTypes, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System" />

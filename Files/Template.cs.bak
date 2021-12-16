@@ -52,14 +52,14 @@ namespace $safeprojectname$
         #endregion
         public IBaseMessage Execute(IPipelineContext pContext, IBaseMessage pInMsg)
         {
-			if(Disable)
-               return pInMsg;
+			if(Enabled == true)
+			{
            //Use VirtualStream when handling streams
            //ContextProperty prop = new ContextProperty(Property);
 
            //object value = pInMsg.Context.Read(prop);
 
-			
+			}
            
 
             return pInMsg;

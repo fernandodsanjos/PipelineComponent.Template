@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
-    <Name>ICC.Shared.PipelineComponents</Name>
-    <Description>PipelineComponents template</Description>
+    <Name>BizTalk Shared.PipelineComponents</Name>
+    <Description>BizTalk PipelineComponents template</Description>
     <ProjectType>BizTalk</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
@@ -14,7 +14,7 @@
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="skit.csproj" File="ICC.Shared.PipelineComponents.Template.csproj" ReplaceParameters="true">
+    <Project TargetFileName="skit.csproj" File="Shared.PipelineComponents.Template.csproj" ReplaceParameters="true">
       <Folder Name="BiztalkComponents.Utils" TargetFolderName="BiztalkComponents.Utils">
         <ProjectItem ReplaceParameters="true" TargetFileName="ContextExtensions.cs">ContextExtensions.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="ContextProperties.cs">ContextProperties.cs</ProjectItem>
@@ -32,7 +32,7 @@
     </Project>
   </TemplateContent>
    <WizardExtension>  
-    <Assembly>ICC.Shared.PipelineComponents.Wizard, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=ad679348c203b092</Assembly>  
-    <FullClassName>ICC.Shared.PipelineComponents.Wizard</FullClassName>  
+    <Assembly>Shared.PipelineComponents.Wizard, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=2699ca19f9dc679d</Assembly>  
+    <FullClassName>Shared.PipelineComponents.Wizard</FullClassName>  
 </WizardExtension> 
 </VSTemplate>

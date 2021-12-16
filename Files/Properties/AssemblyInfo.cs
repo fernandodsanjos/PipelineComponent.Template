@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("$safeprojectname$")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Assemblin")]
 [assembly: AssemblyProduct("$safeprojectname$")]
 [assembly: AssemblyCopyright("Copyright ©  $year$")]
 [assembly: AssemblyTrademark("")]

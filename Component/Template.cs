@@ -47,22 +47,22 @@ namespace Shared.PipelineComponents
 
         #region Properties
         
-        [Description("Run component")]
+       [Description("Disable component")]
         [RequiredRuntime]
-        public bool Enabled { get; set; } = true;
+        public bool Disable { get; set; } = false;
         #endregion
         public IBaseMessage Execute(IPipelineContext pContext, IBaseMessage pInMsg)
         {
 
-			if(Enabled == true)
-			{
+			if(Disable)
+               return pInMsg;
 			   //Use VirtualStream when handling streams
 			   //ContextProperty prop = new ContextProperty(Property);
 
 			   //object value = pInMsg.Context.Read(prop);
 
            
-			}
+			
 
             return pInMsg;
         }

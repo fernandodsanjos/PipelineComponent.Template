@@ -46,21 +46,23 @@ namespace Shared.PipelineComponents
         #endregion
 
         #region Properties
-        [DisplayName("Name")]
-        [Description("Description")]
+        
+        [Description("Run component")]
         [RequiredRuntime]
-        public bool Property { get; set; }//TODO: Add Component Property Or Remove Dummy property
+        public bool 																																			 { get; set; } = true;
         #endregion
         public IBaseMessage Execute(IPipelineContext pContext, IBaseMessage pInMsg)
         {
 
-           //Use VirtualStream when handling streams
-           //ContextProperty prop = new ContextProperty(Property);
+			if(Enabled == true)
+			{
+			   //Use VirtualStream when handling streams
+			   //ContextProperty prop = new ContextProperty(Property);
 
-           //object value = pInMsg.Context.Read(prop);
+			   //object value = pInMsg.Context.Read(prop);
 
            
-           
+			}
 
             return pInMsg;
         }

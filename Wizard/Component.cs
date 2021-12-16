@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ICC.Shared.PipelineComponents
+namespace Shared.PipelineComponents
 {
     public partial class ComponentName : Form
     {

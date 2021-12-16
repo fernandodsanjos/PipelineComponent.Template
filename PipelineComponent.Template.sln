@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.PipelineComponents.Wizard", "Wizard\Shared.PipelineComponents.Wizard.csproj", "{2C5771E3-FA6D-4E00-B26F-B1C4C651C8CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C5771E3-FA6D-4E00-B26F-B1C4C651C8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C5771E3-FA6D-4E00-B26F-B1C4C651C8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C5771E3-FA6D-4E00-B26F-B1C4C651C8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C5771E3-FA6D-4E00-B26F-B1C4C651C8CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D55F123C-B006-4D43-93CE-8A5CE41A7D5E}
+	EndGlobalSection
+EndGlobal

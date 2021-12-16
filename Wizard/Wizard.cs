@@ -4,16 +4,15 @@ using Microsoft.VisualStudio.TemplateWizard;
 using EnvDTE;
 using System.Windows.Forms;
 
-namespace ICC.Shared.PipelineComponents
+namespace Shared.PipelineComponents
 {
     public class Wizard : IWizard
     {
 
-        private string shared_ass_name = "ICC.Shared.PipelineComponents";
+        private string shared_ass_name = "Shared.PipelineComponents";
         private string newDestinationDirectory = String.Empty;
         private string newProjectname = String.Empty;
 
-        // C:\work\uu-integration-biztalk\ICC.Shared.PipelineComponents\Template\Wizard\ICC.Shared.PipelineComponents.Wizard.dll
         // This method is called before opening any item that   
         // has the OpenInEditor attribute.  
         public void BeforeOpeningFile(ProjectItem projectItem)
